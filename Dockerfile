@@ -8,6 +8,6 @@ RUN rpm -ivh http://nginx.org/packages/centos/7/noarch/RPMS/nginx-release-centos
 RUN yum -y install nginx
 RUN yum clean all
 
-EXPOSE 22 80
+EXPOSE 80
 
 ENTRYPOINT ["/usr/sbin/nginx", "-g", "daemon off;"]
