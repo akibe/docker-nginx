@@ -11,6 +11,6 @@ Dockerfile for Nginx default setup on CentOS7
 
 ## Testing
 
-The above example exposes the Adminer webinterface on port 80, so that you can now browse to:
+The above example exposes the Welcome page on port 80, so that you can now browse to:
 
 > http://localhost/
